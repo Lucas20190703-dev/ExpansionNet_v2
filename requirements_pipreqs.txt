@@ -1,0 +1,10 @@
+h5py==3.13.0
+numpy==2.2.5
+onnx==1.17.0
+onnxruntime==1.21.1
+onnxsim==0.4.36
+Pillow==11.2.1
+pycuda==2025.1
+tensorrt_cu12==10.9.0.34
+torch==2.7.0
+torchvision==0.22.0

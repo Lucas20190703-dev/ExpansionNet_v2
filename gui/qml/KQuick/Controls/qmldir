@@ -1,0 +1,28 @@
+module KQuick.Controls
+
+KButton 1.0 KButton.qml
+KCheckBox 1.0 KCheckBox.qml
+KComboBox 1.0 KComboBox.qml
+KDateField 1.0 KDateField.qml
+KDatePicker 1.0 KDatePicker.qml
+KMonthPicker 1.0 KMonthPicker.qml
+KYearPicker 1.0 KYearPicker.qml
+
+KIcon 1.0 KIcon.qml
+KIconButton 1.0 KIconButton.qml
+KIconType 1.0 KIconType.qml
+KLabel 1.0 KLabel.qml
+KProgressBar 1.0 KProgressBar.qml
+KText 1.0 KText.qml
+KTextField 1.0 KTextField.qml
+KTextArea 1.0 KTextArea.qml
+KWindowDragHandler 1.0 KWindowDragHandler.qml
+KTitleBar 1.0 KTitleBar.qml
+KToolTip 1.0 KToolTip.qml
+KSeparator 1.0 KSeparator.qml
+KSplitHandle 1.0 KSplitHandle.qml
+KStatusBar 1.0 KStatusBar.qml
+KSearchField 1.0 KSearchField.qml
+KSlider 1.0 KSlider.qml
+KRectangle 1.0 KRectangle.qml
+KLoadIndicator 1.0 KLoadIndicator.qml

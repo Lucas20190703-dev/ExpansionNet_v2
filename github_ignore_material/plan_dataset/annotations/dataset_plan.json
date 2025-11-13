@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "filepath": "github_ignore_material/plan_dataset/images",
+      "filename": "image1.jpg",
+      "img_id": 0,
+      "split": "train",
+      "sentences": [
+        {"raw": "The first plan image showing a desk."},
+        {"raw": "Desk with a laptop and books."}
+      ]
+    },
+    {
+      "filepath": "github_ignore_material/plan_dataset/images",
+      "filename": "image2.jpg",
+      "img_id": 1,
+      "split": "train",
+      "sentences": [
+        {"raw": "A chair in the corner of the room."},
+        {"raw": "A chair in the corner of the room."}
+      ]
+    },
+    {
+      "filepath": "github_ignore_material/plan_dataset/images",
+      "filename": "image3.jpg",
+      "img_id": 2,
+      "split": "val",
+      "sentences": [
+        {"raw": "Bookshelf with multiple shelves."},
+        {"raw": "Bookshelf with multiple shelves."}
+      ]
+    },
+    {
+      "filepath": "github_ignore_material/plan_dataset/images",
+      "filename": "image4.jpg",
+      "img_id": 3,
+      "split": "test",
+      "sentences": [
+        {"raw": "A plant on the windowsill."},
+        {"raw": "A plant on the windowsill."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+module KQuick.Core
+singleton Colors 1.0 Colors.qml
+
+ControlSize 1.0 ControlSize.qml
+PaletteBasic 1.0 PaletteBasic.qml
+PaletteControl 1.0 PaletteControl.qml
+singleton Size 1.0 Size.qml

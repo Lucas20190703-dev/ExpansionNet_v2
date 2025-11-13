@@ -1,0 +1,20 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+	<qresource prefix="icons">
+		<file alias="appicon.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/appicon.png</file>
+		<file alias="check.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/check.png</file>
+		<file alias="close.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/close.png</file>
+		<file alias="down-double-arrow.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/down-double-arrow.png</file>
+		<file alias="faq.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/faq.png</file>
+		<file alias="folder.svg">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/folder.svg</file>
+		<file alias="home.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/home.png</file>
+		<file alias="icon.ico">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/icon.ico</file>
+		<file alias="image.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/image.png</file>
+		<file alias="menu.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/menu.png</file>
+		<file alias="question.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/question.png</file>
+		<file alias="refresh.svg">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/refresh.svg</file>
+		<file alias="right-arrow.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/right-arrow.png</file>
+		<file alias="search.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/search.png</file>
+		<file alias="settings.png">F:/ImageCaptioning/ExpansionNet_v2/gui/resources/icons/settings.png</file>
+</qresource>
+</RCC>

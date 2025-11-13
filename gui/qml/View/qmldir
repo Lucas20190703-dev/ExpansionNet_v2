@@ -1,0 +1,18 @@
+module Model
+AppView 1.0 AppView.qml
+BasePage 1.0 BasePage.qml
+CaptionView 1.0 CaptionView.qml
+ContentView 1.0 ContentView.qml
+FileListView 1.0 FileListView.qml
+ImageCaptioningPage 1.0 ImageCaptioningPage.qml
+ImageGridView 1.0 ImageGridView.qml
+ImagePreview 1.0 ImagePreview.qml
+ImageSearchPage 1.0 ImageSearchPage.qml
+ImageSearchContentView 1.0 ImageSearchContentView.qml
+LeftDrawer 1.0 LeftDrawer.qml
+SideBar 1.0 SideBar.qml
+SeachPanel 1.0 SearchPanel.qml
+SettingsPage 1.0 SettingsPage.qml
+StatusBar 1.0 StatusBar.qml
+HomePage 1.0 HomePage.qml
+HelpPage 1.0 HelpPage.qml
