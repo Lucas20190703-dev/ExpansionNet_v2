@@ -8,3 +8,4 @@ pycuda==2025.1
 tensorrt_cu12==10.9.0.34
 torch==2.7.0
 torchvision==0.22.0
+nltk==3.9.2

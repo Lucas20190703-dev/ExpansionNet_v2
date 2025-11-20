@@ -21,3 +21,4 @@ tensorrt_cu12_libs==10.9.0.34
 torch==2.7.0
 torchvision==0.22.0
 typing_extensions==4.13.2
+nltk==3.9.2

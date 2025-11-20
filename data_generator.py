@@ -30,7 +30,7 @@ def generate_data(path_args):
                                        preproc_images_hdf5_filepath=None,
                                        precalc_features_hdf5_filepath=None,
                                        limited_num_train_images=None,
-                                       limited_num_val_images=5000)
+                                       limited_num_val_images=None) #5000) for fake
 
     from models.swin_transformer_mod import SwinTransformer
     model = SwinTransformer(
@@ -133,9 +133,9 @@ def generate_data(path_args):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Image Captioning')
-    parser.add_argument('--save_model_path', type=str, default='./github_ignore_material/saves/')
+    parser.add_argument('--save_model_path', type=str, default='./github_ignore_material/raw_data/swin_large_patch4_window12_384_22k.pth')
     parser.add_argument('--output_path', type=str, default='./github_ignore_material/raw_data/precalc_features.hdf5')
-    parser.add_argument('--images_path', type=str, default='/tmp/images/')
+    parser.add_argument('--images_path', type=str, default='')
     parser.add_argument('--captions_path', type=str, default='./github_ignore_material/raw_data/')
     parser.add_argument('--dtype', type=str, default='fp32', help='Decide data type of saved features')
 

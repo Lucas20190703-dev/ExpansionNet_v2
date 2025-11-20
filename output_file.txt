@@ -1,0 +1,49 @@
+seed: 775533
+train batch_size: 48
+num_accum: 1
+ddp_sync_port: 11317
+save_path: ./github_ignore_material/saves/
+num_gpus: 1
+Features path: ./github_ignore_material/raw_data/precalc_features.hdf5
+Features path provided, images are provided in form of features.
+Initializing dataset...  Num train images: 7
+Num val images: 5000
+Num test images: 0
+tot tokens 54 less than 5: 29 remaining: 25
+There are 27 vocabs in dict
+Max sequence length: 31
+y vocabulary size: 27
+Using -  1  processes / GPUs!
+Requested num GPUs: 1
+GPU: 0] Process 0 working...
+Traceback (most recent call last):
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\train.py", line 538, in <module>
+    spawn_train_processes(model_args=model_args,
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\train.py", line 365, in spawn_train_processes
+    mp.spawn(distributed_train,
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\multiprocessing\spawn.py", line 328, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\multiprocessing\spawn.py", line 284, in start_processes
+    while not context.join():
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\multiprocessing\spawn.py", line 203, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 0 terminated with the following error:
+Traceback (most recent call last):
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\multiprocessing\spawn.py", line 90, in _wrap
+    fn(i, *args)
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\train.py", line 211, in distributed_train
+    dist.init_process_group("nccl", rank=rank, world_size=world_size)
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\distributed\c10d_logger.py", line 83, in wrapper
+    return func(*args, **kwargs)
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\distributed\c10d_logger.py", line 97, in wrapper
+    func_return = func(*args, **kwargs)
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\distributed\distributed_c10d.py", line 1520, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\distributed\rendezvous.py", line 269, in _env_rendezvous_handler
+    store = _create_c10d_store(
+  File "F:\DeepLearning\IVCaptioning\ExpansionNet_v2_folk\ExpansionNet_v2\.venv\lib\site-packages\torch\distributed\rendezvous.py", line 189, in _create_c10d_store
+    return TCPStore(
+RuntimeError: use_libuv was requested but PyTorch was build without libuv support
+
