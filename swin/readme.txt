@@ -1,0 +1,1 @@
+These files should be in 'github_ignore_material/raw_data'
